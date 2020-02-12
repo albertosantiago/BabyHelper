@@ -1,0 +1,28 @@
+Para permitir accesos al servidor desde el firewall.
+
+sudo ufw allow from la_IP_del_otro_servidor/32 to any port 27017
+
+Por ejemplo, la mia de Granada:
+
+89.140.119.10
+
+sudo ufw allow from 89.140.119.10/32 to any port 27017
+
+Usuario mongodb: pollardo
+Password: _f_pollas_2_2
+
+
+db.createUser(
+  {
+    user: "pollardo",
+    pwd: "_f_pollas_2_2",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)
+
+Inicializar la base de datos
+db.babyhelper.insert({"init":"true"})
+
+Para logarse desde la consola
+
+sudo mongo -u pollardo -p --authenticationDatabase admin

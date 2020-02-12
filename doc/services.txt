@@ -1,0 +1,10 @@
+
+
+AdMob:
+ID de editor: pub-7990781443832926
+ID de aplicación: ca-app-pub-7990781443832926~5201915553
+ID anuncio intersticial: ca-app-pub-7990781443832926/4164166055
+
+Fabric:
+android:name="io.fabric.ApiKey"
+android:value="7b2b58375f1146d996fdbf85e9fdd33429fb193c"

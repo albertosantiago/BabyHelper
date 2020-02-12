@@ -1,0 +1,173 @@
+
+body{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size:2.1em;
+}
+
+h1.header{
+    font-size: 3.2em;
+    font-weight: 500;
+    line-height: 1.1em;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-family:Roboto;
+    color:#111;
+    max-width:450px;
+}
+h2.subheader{
+    font-size: 2.5em;
+    font-weight: 500;
+    line-height: 1em;
+    text-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
+    font-family:Roboto;
+    color:#222;
+}
+#content-page{
+    padding: 40px;
+}
+
+.bg-blue{
+    background-color: #2296F3;
+    border-bottom: 4px solid #0465B5;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+.navbar-light .navbar-brand{
+    color:#fff !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#fff !important;
+    font-weight: 600;
+}
+
+.mobile-screen{
+    background: url(/img/mobile-back.png) center center no-repeat;
+    width:310px;
+    padding:0px;
+    height:600px;
+    margin: 0 auto;
+}
+
+.mobile-screen img{
+    width:260px;
+    margin-top:70px
+}
+ul.list li{
+    list-style-type:none;
+    padding-top:10px;
+}
+
+ul.features-list{
+    padding:0px;
+}
+
+ul.features-list li{
+    list-style-type:none;
+    padding-top:10px;
+    font-size:14px;
+    color:#222;
+}
+
+.block-header{
+    padding-top:120px;
+}
+
+.footer-bottom{
+    padding:10px;
+}
+#lang-selector{
+    float:right;
+}
+#lang-selector a{
+    color:#fff;
+    font-size:12px;
+}
+#lang-selector a:hover{
+    color:#fff;
+}
+#lang-selector span{
+    color:#fff !important;
+}
+
+div.page{
+    padding-top:50px;
+}
+
+div.page table th,td{
+    text-align:center;
+    padding:5px;
+    border:1px solid #ddd;
+}
+
+.privacy-menu{
+    padding-bottom: 20px;
+    width:100%;
+}
+.privacy-menu li{
+    list-style-type: none;
+    padding:7px;
+    border-bottom:1px solid #ddd;
+}
+.privacy-menu li a{
+    color:#198DEB;
+}
+.privacy-menu li:last-child{
+    border-bottom:0px;
+}
+
+.privacy-menu.footer{
+    width:100%;
+    padding:0px;
+}
+.privacy-menu.footer ul{
+    padding:0px;
+}
+.privacy-menu.footer li{
+    border:none;
+    display: inline-block;
+    font-size:12px;
+}
+
+.contact-form{
+    padding:20px;
+    padding-top:120px;
+}
+
+.contact-form form{
+    padding-top:40px;
+}
+.contact-form form textarea{
+    height:120px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    h1.header{
+        font-size: 2.7em;
+    }
+    #content-page{
+        padding:0;
+    }
+    .content{
+        width:100%;
+    }
+    ul.features-list li{
+        font-size:12px;
+    }
+    .block-header{
+        padding-top:40px;
+    }
+    .mobile-screen-container{
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:20px;
+        padding-bottom:0px;
+    }
+}

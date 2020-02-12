@@ -1,0 +1,9 @@
+Linux casa:
+FA:2E:47:E1:75:E5:D2:96:02:3F:EE:AE:5F:23:C4:D1:76:00:B2:B1
+Portatil:
+91:1F:31:4D:21:B8:76:03:D8:61:A8:87:06:DA:C6:B8:EF:24:CF:3B
+
+
+
+Para crear una firma de mi aplicación para instalar en google play
+keytool -genkey -v -keystore production.keystore -alias production -keyalg RSA -keysize 2048 -validity 10000
