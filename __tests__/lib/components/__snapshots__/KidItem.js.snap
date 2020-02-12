@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View />
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "paddingTop": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderColor": "#eee",
+                  "borderRadius": 75,
+                  "borderWidth": 10,
+                  "height": 150,
+                  "justifyContent": "center",
+                  "margin": 10,
+                  "marginBottom": 0,
+                  "marginTop": 20,
+                  "width": 150,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "uri": "file:////storage/emulated/0/Pictures/BabyHelper/5b1a3044355310d1528442957.jpg",
+                  }
+                }
+                style={
+                  Object {
+                    "borderRadius": 70,
+                    "height": 140,
+                    "width": 140,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "paddingTop": 5,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#333",
+                    "fontSize": 24,
+                    "fontWeight": "bold",
+                    "margin": 8,
+                    "marginTop": 0,
+                  }
+                }
+              >
+                Marcos
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginTop": 0,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2296F3",
+                    "borderColor": "#0465B5",
+                    "borderRadius": 30,
+                    "borderWidth": 1,
+                    "height": 60,
+                    "justifyContent": "space-around",
+                    "margin": 20,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderRadius": 0,
+                    "borderRightWidth": 0,
+                    "margin": 0,
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={false}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 30,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Ionicons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2296F3",
+                    "borderColor": "#0465B5",
+                    "borderRadius": 30,
+                    "borderWidth": 1,
+                    "height": 60,
+                    "justifyContent": "space-around",
+                    "margin": 20,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderRadius": 0,
+                    "borderRightWidth": 0,
+                    "margin": 0,
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={false}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 30,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Ionicons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2296F3",
+                    "borderColor": "#0465B5",
+                    "borderRadius": 30,
+                    "borderWidth": 1,
+                    "height": 60,
+                    "justifyContent": "space-around",
+                    "margin": 20,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderRadius": 0,
+                    "borderRightWidth": 0,
+                    "margin": 0,
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={false}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 30,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Ionicons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            isTVSelectable={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#2296F3",
+                    "borderColor": "#0465B5",
+                    "borderRadius": 30,
+                    "borderWidth": 1,
+                    "height": 60,
+                    "justifyContent": "space-around",
+                    "margin": 20,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderRadius": 0,
+                    "margin": 0,
+                  },
+                ],
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={false}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 30,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Ionicons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "margin": "5%",
+              "marginTop": 10,
+              "width": "90%",
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

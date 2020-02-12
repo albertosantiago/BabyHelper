@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "babyhelper-fe5cb",
+  "private_key_id": "344808150d6bcc912776b9aef494948195e9ce00",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDF/bNfpspSrCBn\n7R57/QQF/J39dYfIMe6Dgdh6+mDo9gK1p3y1OvvJjMl1YFffvhcyke3FPNNxi1Mh\npkBodcvRM17ZUjZFBaHxM+ElixWt3TypKQ7qIX8t9x4QNTLh8BA2/W8w7XMrXLjw\nqTISYNiSQpC0/2nfLes2eEPNvvgRyDY91lo9NjuCo68MOeERjTFYcMxR9Suib/Df\nMFgTR96rfVr6NlZO6y3qR5obEQh/91OnGpXpaUUZOWeGQuN6efhc/zyVfb9gNKYi\nDNwFg1yD7cx2er6ZYjQNaBqD/VQnZPXr2tbJKW95qzE9E0uESz7oCWGyg9F56zs9\nw8JRmozbAgMBAAECggEASYQS6xTk8j6ch8pZc+N2b3yl81uFL/YuYKFBjyRSAJ58\nUhQfL7H3lRaUJWPBLUCJn4rk9URJJNN9ajSvnLoElKjU8q/em9FkGMpRMt4KjjTk\nVdF7ir8mWJx2CsGeI5u+gZSoCUxZ48N5nk7M21sff2t9DN/74VVNDbwpPQfIV91O\n0oeWyS6Dpse+LL9Otbj/q0DrM08LcaSGGFI7uUu4Sx2DJHEMuAZj2SBR7KKhcFS+\nG4BWlaRkSvJlz6PQawV30wm1DuGVWqB8un0E1OT/R/qGSTtKVoL+WN+zpMLTuL2G\nG8PFKFHea+QXSszDSJ5LMdI1CiF0KCqIV6Jx64THNQKBgQDopZzk8YuU9ufsKeE1\n3gqtzl32OBNlrhrrYY75JpFiUb/aBl5HNq5RwHtXy1qBcxYL4+O/8eSc/MZ6dtwh\ne5oKhjm058As9KENr8oHOQWN0EkFLppXXnCnqzF1sbj2o2ccA/nhLz/XdWyRqbpe\nd9i54je78xlaI7Sk3TyHFE9CpwKBgQDZ3YaywucjJxQqu530R0OnBqwLo/XOV5l+\ncPn/FjWxc8N8pnpBW9E9xfivRJe9Zwueb0PLrFea88bEnudsLhmzlYqvZBKKNQVx\n5rG9nmkB6IZTTMMoI2wpNROiCLADBtezrENP5NCd3550KRbOfpFl3c09s3Batzoh\n8ICmifuurQKBgD8OXEcFXQLEJToyY7M4+oX/UCJjMoa1uOAhciH/nRob9DcA0N7W\naEsKM6QpHt/FNK2GV/13b7JJJPaebq24lZjSpqNsyP6mU1ylT8nDX8j/MjtwVS7n\nDvuy/9XZlLtssI68WSb6qoAYeJPGgBgIvbosIVUU38M5uEWTHUuzaoQzAoGBAL9/\nNTeJk2rVnadWFCe0QCXe+nic3KFLZFK8cTGjTvy0OV8mYY1zbD709XrxOsMzgQX4\n3Ml4qeQ8ZDlNRzNSbiroxecWeilbI3cThKWcSMZxoSg079EnGZo62g/xvOxcJlr6\njov6Hti1xuxpdW951smIJTAXuikypnlQkXRREpVdAoGAceFK/QoQsD9S5RPzf9Gj\n0JE7iAfArjgg7ON///FUb7ASUFpZwxDQvWgugbqDN7caVrQGEcs9Rlv17Itov5/g\n9Lb9HID3LlVUZfFsr2Cv3x8PODPnIPuP9PV4yimhXASNMSovdcl7yOemWt79Lib7\nClUyNyiT9NOhOWq8sEI6pPs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-storage@babyhelper-fe5cb.iam.gserviceaccount.com",
+  "client_id": "109562559686047089661",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-storage%40babyhelper-fe5cb.iam.gserviceaccount.com"
+}

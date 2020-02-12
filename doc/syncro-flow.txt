@@ -1,0 +1,6 @@
+1) El usuario empieza anotando lo del niño
+2) El usuario se registra
+3) El usuario comparte la custodia de un niño
+4) El niño se sube al servidor con notas al nombre de la madre.
+5) A partir de ahi se guarda un registro donde se pone la autoría de la nota.
+6) Se actualizan las notas que se van haciendo y eliminando.

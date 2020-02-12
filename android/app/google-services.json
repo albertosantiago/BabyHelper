@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "728380312031",
+    "firebase_url": "https://babyhelper-fe5cb.firebaseio.com",
+    "project_id": "babyhelper-fe5cb",
+    "storage_bucket": "babyhelper-fe5cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728380312031:android:18303fff6daf1f1c",
+        "android_client_info": {
+          "package_name": "com.wetdog.babyhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728380312031-uhmi21br48e7clni7a6fv6fdcqlge5qj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "728380312031-999gvjq0vv1u20kl31vv37ia505uf9sk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wetdog.babyhelper",
+            "certificate_hash": "XXXXXXXXXXX"
+          }
+        },
+        {
+          "client_id": "728380312031-hor0mvtj8tdqlci1ulpmicbtgdkl8k6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wetdog.babyhelper",
+            "certificate_hash": "XXXXXXXXXXXX"
+          }
+        },
+        {
+          "client_id": "728380312031-bhbcshln37psjjj6hc81e726ej9gtj76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wetdog.babyhelper",
+            "certificate_hash": "XXXXXXXXXXXXXX"
+          }
+        },
+        {
+          "client_id": "728380312031-mrgtbhks8ivn670hisnsc61fsldno7rb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "728380312031-mrgtbhks8ivn670hisnsc61fsldno7rb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "XXXXXXXXXXXXXXXXXXx"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728380312031-uhmi21br48e7clni7a6fv6fdcqlge5qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

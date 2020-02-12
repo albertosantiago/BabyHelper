@@ -1,0 +1,39 @@
+
+post '/auth/login'
+post '/auth/google-login'
+
+['middleware' => 'api.auth']
+    get '/'
+    ['prefix' => 'auth']
+        get    'user'
+        patch  'refresh'
+        delete 'invalidate'
+
+        ['prefix' => 'user']
+            post 'update'
+            get  'profile/{profileId}'
+
+    ['prefix' => 'share']
+        get '/token/{kidId}'
+        get '/kid/{token}'
+
+    ['prefix' => 'kid']
+        post 'store'
+        post '/remove'
+        post '/remove-editor'
+        get  '/list'
+        get  '/editable-list'
+        get  '/{kidId}'
+
+    ['prefix' => 'change-log']
+        get  'kid/'
+        post 'update'
+        post 'upload-img'
+        post 'upload-video'
+
+    ['prefix' => 'user']
+        post 'store'
+        post 'confirmation'
+
+    ['prefix' => 'devices']
+        post 'new'

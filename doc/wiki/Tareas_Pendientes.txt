@@ -1,0 +1,148 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-01T22:10:19+01:00
+
+
+
+====== Tareas ======
+
+
+===== Fallos/Cambios =====
+~~- Arreglar visualización de medicinas~~
+~~- Cargar la última nota cuando cambie el niño en modo multiniño.~~
+~~- Quitar de las notificaciones el creador de la nota.~~
+~~- Poner la nota de comida mejor, en últimas notas sobre todo.~~
+~~- Poner el orden de notas como dice mi hermana.~~
+~~- Quitar fotos y videos de la sección de notas.~~
+~~- Arreglar modal de filtros.~~
+~~- Poner medidas de centimetros cubicos a las papillas y biberón.~~
+
+===== Funcionalidades Pendientes =====
+
+===== V2 =====
+- Crear proceso de sincronización que revise notificaciones al inicio.
+- Introducción de alimentos
+- Eliminar para mi
+- Poner las traducciones
+- Poner idioma en la configuración
+- Poner notificaciones de nuevas notas de otros usuarios 
+- Tablas de percentiles
+- Poner primeras frases de niños
+- Poner boton de eliminar cuenta desde la web
+- Poner lista de deseos y necesidades.
+- Poner videos de youtube y enlaces a sitios guays, hacer un agregador clasificando los consejos.
+- Quitar estilos.
+- Crear album de fotos descargable y web
+
+===== Cuarentena =====
+Cosas que parece que funcionan pero fallaron:
+
+- Al crear un bebe me sale 4 veces en producción.
+- Sigue subiendo las cosas primero y luego volviendolas a bajar.
+ 
+
+===== Realizadas =====
+~~- Las ultimas notas en el home de los niños no se sincroniza correctamente. Si, pero tarda mucho.~~
+~~- El sincronizador de imagenes se debería de mostrar si detecta que hay alguna imagen pendiente de descargar.~~
+~~- Al pulsar la nota poner un popup con el autor o poner el nombre del autor o algo.~~
+~~- En las notas al pulsar sobre el icono de tutor mostrar opciones.~~
+~~- Las notificaciones no llegan.~~
+~~[2018-06-16 08:45:18] production.INFO: MESSAGE: Undefined index: type  ~~
+~~[2018-06-16 08:45:18] production.INFO: CODE: 0  ~~
+~~[2018-06-16 08:45:18] production.INFO: FILE: /home/ubuntu/babyhelper/app/Jobs/SendNotifications.php  ~~
+~~[2018-06-16 08:45:18] production.INFO: LINE: 51~~
+~~- Tarda mucho en subir los videos y se los vuelve a descargar luego~~
+~~- Cuando vamos a la web con el share no funciona.~~
+ ~~- Se pierden las tabs del bebe en multiniño: Cuando has compartido un niño con un usuario si ese usuario crea otro niño cuando le da a configuración no le sale la opción de compartir ni eliminar. ~~
+~~- Cuando tiene multiniño hay un crash al meterse en las imagenes.~~
+~~- Avisar de la necesidad de registro para compartir.~~
+~~- En el selector de niños de las imagenes poner el checking verde sobre la foto del niño~~
+~~- En la lista de imagenes cambiar de nombre, ahora solo pone "Aún no has subido ninguna imagén de Mara"~~
+~~- Peticiones duplicadas en la sincronización -> ~~
+Eran redirects, quitando el "/" final a las urls se arregla.
+~~- Quitar titulo de la nota personal.~~
+~~- En el selector de niños de las notas KidSelector aumentar el tamaño para que salga el icono de dropdown.~~
+~~- Instalar en babyhelper.info~~
+~~- Fallo en el registro/login por google.~~
+~~- Cuando no esta logado, si haces anotaciones se hacen las peticiones al servidor de todas maneras, además de que cada vez envia una más.~~
+~~- En el registro por mail ahora no aparece el código de confirmación.~~
+~~- Añadir los literales de ingles al servidor en la recuperación de contraseña~~
+~~- Fallo en ingles al enviar la petición. Probablemente error de configuración.~~
+~~- Hacer algunos tests de integración y revisar a fondo.~~
+~~- Recuperar contraseña~~
+~~- Mandar correos de confirmación~~
+~~- Poner el comentario de las imagenes y videos en los items.~~
+~~- Redactar mensajes en español para las notificaciones.~~
+~~- Revisar la app y ponerla en Español completamente.~~
+~~- En multiniño no aparece el selector de niños en los formularios.~~
+~~- Poner publicidad.~~
+~~- El login de  google ha fallado, pone que por permisos.~~
+~~- En el login tradicional esquivar que falle si tiene el email un espacio al final.~~
+~~- Quitar los botones de login de "alberto" y "alicia"~~
+~~Poner Thumb de video  en fichero~~
+~~Poner el baño en la lista inicial~~
+~~Carga de datos en el login, algunas veces bien otras no.~~
+~~Poner lista de notas donde el icono de alarmas, poner alarmas en el listado normal y poner anotar directamente en el botón actual de notas.~~
+~~Logarse directamente desde la app si se abre desde el whatsapp~~
+~~Poner las imagenes en su propia carpeta en el movil y en carpetas seccionadas en el servidor~~
+~~ChangeLog tiene dos id, eliminar el id sin _~~
+~~- Descarga de videos.~~
+~~        El thumb no se ve al descargarse~~
+		~~Las notas se muestran cuando aun estan cargandose~~
+~~- Poner en las opciones de imagenes el share cuando es compartido.~~
+~~- Dia de baño~~
+~~- Sueño~~
+~~- Temperatura~~
+~~- Gotas nasales~~
+~~- Altura~~
+~~- Repasar orden de notas de nuevo. ~~
+~~- Si al logarse el usuario es creado, respetar los contenidos guardados.~~
+~~- Evitar ficheros mayores de 20M~~
+~~- Sincronizar videos~~
+~~- Cambiar el tono de la imagen de sustitución en el formulario.~~
+~~- Obligar a etiquetar a algún bebe en las notas de media.~~
+~~- Quitar filtros de niños cuando solo hay un niño~~
+~~- Eliminar notas de media.~~ 
+~~- Refrescar el token cada 10 minutos~~
+~~- Quitar mostrar el calendario en los items cuando selecciones la imagen.~~
+~~- Impedir que un mismo dispositivo se ponga dos veces.~~
+~~- Poner registro desde la página de compartir en caso de que no tenga la aplicación. Dar la elección de registrarse con google o facebook.~~
+~~- Poner proceso de registro con google y facebook~~
+~~- Hacer frontales de babyhelper.info~~
+~~- Seleccionar automáticamente cuando es un solo niño. Quitar el selector de niños y poner el niño seleccionado directamente.~~
+~~- Revisar en las scenas que el botón de vuelta no use pop en el historial sino que vaya a pantallas fijas.~~
+~~- En las imagenes y videos (y alarmas) si pones la nota para varios niños no duplicar la nota sino meter varios niños relacionados.~~
+~~- Perfil de tutores~~
+~~- Filtrar en la lista de notas.~~
+~~- Chequear si la conexión a internet funciona para activar la syncronización.~~
+~~- Poner icono de aplicación~~
+~~- Poner videos.~~
+~~- Guardar metadatos de la imagen si tiene coordenadas.~~
+~~- Poner opciones en la imagen aparte de eliminar (compartir por whatsapp)~~ 
+~~- Poner la fecha de creación de la imagen en el selector automático.~~
+~~- Arreglar que en el peso cargue la última nota del niño seleccionado.~~
+~~- Poner botonera en frontal para ver lo de todos los niños, eliminar filtro de niños sino esta seleccionado.~~
+~~- Ajustar el marco de las imagenes en el listado de imagenes (ImageItem en ImageList)~~
+~~- Girar imagen en el Lightbox~~
+~~- Permitir en los formularios espacios al final (trim) y poner espacios entre los nombres (1) "Alberto Santiago"~~
+~~- Poner errores de registro y validación de código.~~
+~~- Mejorar el mensaje de guardado.~~
+~~- Permisos, eliminar las opciones de edición si el usuario no es el propietario.~~
+~~- Eliminar editores de los crios.~~
+~~- Lista de tutores~~
+~~- Poner errores de formularios.~~
+~~- Cambiar la página del crio como si fuera un TL de twitter o facebook.~~
+~~- Poner en el selector de imagenes la opción de dibujos y cerrar el selector cuando se escoje una imagen.~~
+~~- Eliminar código inutil.~~
+~~- Subir las imagenes al servidor.~~
+Compartir bebe con otro movil con cuenta:
+	* ~~El enlace tiene una caducidad de 48 horas.~~
+	* ~~Pasar por whatsapp~~
+	* ~~Como editor:~~
+		* ~~Añadir como editor al usuario que le llegue al enlace.~~
+		* ~~Validar que es usuario registrado.~~
+		* ~~Descargar perfil del responsable del niño.~~
+	* Como responsable
+		* ~~Descargar perfil del o los nuevos editores.~~
+		* ~~Poner botones de eliminar o deshabilitar editores.~~
+		* ~~Poner en las notas el responsable.~~
