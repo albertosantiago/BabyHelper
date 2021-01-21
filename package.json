@@ -48,7 +48,7 @@
     "react-native-video": "^2.0.0",
     "react-navigation": "^1.0.0-beta.21",
     "rn-number-input": "^0.0.2",
-    "socket.io": "^2.0.4",
+    "socket.io": "^2.4.0",
     "socket.io-client": "^2.0.4",
     "validator": "^9.4.1"
   },
